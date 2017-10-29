@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SeaBattle.Data.Model
@@ -16,5 +17,9 @@ namespace SeaBattle.Data.Model
 
         [Required]
         public string Salt { get; set; }
+
+        public bool IsActivated { get; set; }
+
+        public Guid VerifyCode { get; set; }
     }
 }

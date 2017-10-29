@@ -1,0 +1,23 @@
+﻿<Window x:Class="SeaBattle.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeaBattle"
+        mc:Ignorable="d"
+        Title="SignUp" Height="211.993" Width="199.262">
+    <Grid>
+        <Label x:Name="email" Content="Email" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="emailTb" HorizontalAlignment="Left" Height="23" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="logintb" HorizontalAlignment="Left" Height="23" Margin="63,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="fname" Content="FName" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fnametb" HorizontalAlignment="Left" Height="23" Margin="63,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lname" Content="LName" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lnametb" HorizontalAlignment="Left" Height="23" Margin="63,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="pass" Content="Pass" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="passtb" HorizontalAlignment="Left" Height="23" Margin="63,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="signupbtn" Content="Sign Up" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Width="173" Click="signupbtn_Click"/>
+
+    </Grid>
+</Window>

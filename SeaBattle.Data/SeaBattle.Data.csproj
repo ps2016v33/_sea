@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201710220745175_BattleField.Designer.cs">
       <DependentUpon>201710220745175_BattleField.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710290912122_Verify.cs" />
+    <Compile Include="Migrations\201710290912122_Verify.Designer.cs">
+      <DependentUpon>201710290912122_Verify.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\BattleField.cs" />
     <Compile Include="Model\User.cs" />
@@ -72,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710220745175_BattleField.resx">
       <DependentUpon>201710220745175_BattleField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710290912122_Verify.resx">
+      <DependentUpon>201710290912122_Verify.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
