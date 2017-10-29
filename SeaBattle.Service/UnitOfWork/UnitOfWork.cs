@@ -15,6 +15,6 @@ namespace SeaBattle.Service.UnitOfWork
 
         public static UnitOfWork Instance => _instance ?? (_instance = new UnitOfWork());
 
-        //public BattleFieldService BattleFieldService => _bfService ?? (_bfService = new BattleFieldService(_context));
+        public BattleFieldService BattleFieldService => _bfService ?? (_bfService = new BattleFieldService(_context));
     }
 }
